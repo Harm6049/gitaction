@@ -1,5 +1,3 @@
-name: Find Lowest Number Application
-
 on:
   push:
     branches:
@@ -7,6 +5,7 @@ on:
 
 jobs:
   test:
+    name: Test Find Lowest Number Application
     runs-on: ubuntu-latest
 
     steps:
